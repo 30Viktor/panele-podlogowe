@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <img src="montaz_paneli1.png"></header>
+    <main>
+<a href="index.html">Strona Główna</a>
+<a href="oferta.html">Oferta</a>
+<a href="koszty.html">Kalkulator kosztów</a>
+</main>
+<h1>Karkulator kosztów montażu</h1>
+
+<form>
+ <label for="szerokosc">Szerokość pomieszczenia [m]: </label>
+        <input type="number" id="szerokosc" step="0.1">
+
+        <label for="dlugosc">Długość pomieszczenia [m]: </label>
+        <input type="number" id="dlugosc" step="0.1"><br><br>
+
+        <p>Typ panelu</p>
+        <label><input id="laminowane" type="radio" name="typ" value="laminowane"> Panele laminowane</label><br>
+        <label><input id="winylowe" type="radio" name="typ" value="winylowe"> Panele winylowe</label><br>
+        <label><input id="deska" type="radio" name="typ" value="deska"> Deska podłogowa</label><br><br>
+
+        
+        
+        <p id="wynik"></p>
+        
+    </form>
+    <button onclick="oblicz()">Oblicz</button>
+    
+<script src="script.js"></script>
+</body>
+
+<footer><h3">Autor strony: Andryts Viktor</h3></footer>
+</html>
