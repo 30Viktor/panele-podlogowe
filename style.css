@@ -47,3 +47,10 @@ th, td, tr{
     padding: 5px;
     border:1px solid #A0522D;
 }
+button{
+   border:1px solid#A0522D;
+background-color: #A0522D; 
+    color: aliceblue;
+padding:14px;
+    font-size: 25px;
+}
